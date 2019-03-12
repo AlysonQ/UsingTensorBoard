@@ -33,7 +33,7 @@ with tf.Session() as sess:
 #
 # saver = tf.train.Saver()
 # with tf.Session() as sess:
-#     # 提取变量
+#     # 提取變量
 #     saver.restore(sess, "my_net/save_net.ckpt")
 #     print("weights:", sess.run(W))
 #     print("biases:", sess.run(b))
